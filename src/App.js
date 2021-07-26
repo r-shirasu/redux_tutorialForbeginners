@@ -11,9 +11,9 @@ import { Navbar } from "./app/Navbar";
 import { PostsList } from "./features/posts/PostsList";
 import { AddPostForm } from "./features/posts/AddPostForm";
 import { EditPostForm } from "./features/posts/EditPostForm";
+import { SinglePostPage } from "./features/posts/SinglePostPage";
 import { UsersList } from "./features/users/UsersList";
 import { UserPage } from "./features/users/UserPage";
-import { SinglePostPage } from "./features/posts/SinglePostPage";
 import { NotificationsList } from "./features/notifications/NotificationsList";
 
 function App() {

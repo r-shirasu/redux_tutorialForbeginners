@@ -5,7 +5,12 @@ import { Link } from "react-router-dom";
 import { PostAuthor } from "./PostAuthor";
 import { TimeAgo } from "./TimeAgo";
 import { ReactionButtons } from "./ReactionButtons";
-import { fetchPosts, selectPostIds, selectPostById } from "./postsSlice";
+import {
+  // selectAll,
+  fetchPosts,
+  selectPostIds,
+  selectPostById,
+} from "./postsSlice";
 
 let PostExcerpt = ({ postId }) => {
   const post = useSelector((state) => selectPostById(state, postId));
